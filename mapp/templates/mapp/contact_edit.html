@@ -1,0 +1,7 @@
+<form method="post">
+    {% csrf_token %}
+    <div class="form-group">
+    {{ form.as_p }}
+    </div>
+    <input class="btn btn-primary" type="submit" value="Save" />
+</form>
